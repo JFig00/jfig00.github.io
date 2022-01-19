@@ -1,1 +1,3 @@
-# jfig00.github.io
+/*
+Personal Website
+*/

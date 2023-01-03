@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+}
+
+.navbar .fullNav {
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+
+.navbar .fullNav .item {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.navbar .fullNav .item:hover {
+    color: #fff;
+    background-color: #111;
+}

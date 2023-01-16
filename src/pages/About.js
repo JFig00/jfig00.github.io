@@ -1,14 +1,15 @@
 import './styles/about.css';
-import './moveAbout';
 const About = () => {
     return (
         <>
-        <div className="aboutMe">
-            <h1>
-                My name is Johnny Figueroa and I have a Bachelor's in Computer Science from Florida Atlantic University. I specialize in Web development using HTML, CSS, JavaScript, as well as the React framework which this website was built using. Enjoy!
-            </h1>
-        </div>
-    </>
+            <div class="grid-container">
+                <div class="col-9">
+                    <h1 class="middle">About</h1>
+                    <p>Hello! My name is Johnny Figueroa. Click the button below to learn more about me:</p>
+                    <button id='clickit'>Button</button>
+                </div>
+            </div>
+        </>
     )
 }
 

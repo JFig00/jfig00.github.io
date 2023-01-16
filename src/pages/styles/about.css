@@ -1,7 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.aboutMe{
-    max-width: 500px;
-    padding: 20px;
+.grid-container {
+    content: "";
+    clear: both;
+    display: block;
+    margin-right: 0;
+}
+
+.col-9{
     margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
 }

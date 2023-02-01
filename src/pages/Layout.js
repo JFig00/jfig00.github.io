@@ -9,6 +9,7 @@ const Layout = () => {
                 <ul className='fullNav'>
                     <li><Link to="/" className='item'>Home</Link></li>
                     <li><Link to="/About" className='item'>About</Link></li>
+                    <li><Link to="/Editor" className='item'>Editor</Link></li>
                 </ul>
             </nav>
             </header>

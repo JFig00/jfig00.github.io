@@ -4,7 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
-import CodeEditor from './pages/Editor';
+import Editor from './pages/Editor';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="About" element={<About />} />
-            <Route path="Editor" element={<CodeEditor/>}/>
+            <Route path="Editor" element={<Editor/>}/>
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>

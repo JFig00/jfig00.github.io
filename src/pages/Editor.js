@@ -21,7 +21,7 @@ import 'react-codemirror/node_modules/codemirror/mode/javascript/javascript';
 import 'react-codemirror/node_modules/codemirror/mode/css/css';
 import 'react-codemirror/node_modules/codemirror/mode/htmlmixed/htmlmixed';
 
-const CodeEditor = () => {
+const Editor = () => {
     const [code, setCode] = useState('');
     const [language, setLanguage] = useState('javascript');
     const [theme, setTheme] = useState('monokai');
@@ -101,4 +101,4 @@ const CodeEditor = () => {
     );
 };
 
-export default CodeEditor;
+export default Editor;

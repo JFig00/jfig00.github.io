@@ -1,7 +1,6 @@
 import './styles/about.css';
 
 const About = () => {
-    var c = document.getElementById("clickit");
     var up = 0;
     var me = [
         "My name is Johnny Figueroa",
@@ -20,7 +19,7 @@ const About = () => {
         if (up >= me.length) {
             up = 0;
         }
-        c.innerHTML = me[up];
+        document.getElementById("clickit").innerText = me[up];
     }
 
     return (

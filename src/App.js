@@ -9,9 +9,9 @@ import Editor from './pages/Editor';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/About'>
+      <BrowserRouter basename='/home'>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/home" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="About" element={<About />} />
             <Route path="Editor" element={<Editor/>}/>
